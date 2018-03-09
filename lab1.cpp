@@ -6,13 +6,13 @@ int main(){
     cout << "Please enter a number" << endl;
     cin >> number;
     cout << number << "  ";
-    while(number != 1){
-        if(number % 2 == 1 ){
-    	    number = 3*number + 1;
-        }else{
+    while (number != 1) {
+        if (number % 2 == 1 ) {
+    	    number = 3 * number + 1;
+        } else {
     	    number = number / 2;
         }
-	cout << number <<"  ";
+	cout << number << "  ";
     }
     return 0;
 
